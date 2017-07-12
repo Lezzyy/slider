@@ -95,6 +95,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+img {
+  width :500px;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
 
 
 
