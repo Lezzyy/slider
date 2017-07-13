@@ -94,15 +94,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background-color: #000000;
+}
+
 
 img {
-  margin-top: 5px;
-  width :500px;
+  margin-top: 15px;
+  width :1000px;
   height: auto;
+}
+
+.slide {
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
+}
+
+.button {
+  text-align:center;
+  color: #ffffff;
+}
+
+.previous, .next {
+  background-color: #4F1025;
+
 }
 
 

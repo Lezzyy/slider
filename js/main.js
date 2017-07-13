@@ -1,11 +1,5 @@
-var slide = document.getElementsByClassName("slide");
-//var allSlides = document.getElementsByClassName('allSlides');
-//var previous = document.getElementsByClassName('previous');
-//var next = document.getElementsByClassName('next');
-var interval =  setInterval(carousel, 2000);
-var base=0;
-
-function carousel(){
+var slide = document.getElementsByClassName("slide"), interval =  setInterval(carousel, 3000), base = 0;
+function carousel() {
 for (var i=0; i<slide.length; i++){
   slide[i].style.display = 'none';
   }
@@ -15,5 +9,12 @@ for (var i=0; i<slide.length; i++){
   }
   slide[base-1].style.display='block';
 }
-
 carousel();
+var next = document.getElementsByClassName('next');
+document.addEventListener('click', function(){
+carousel(next)
+});
+var previous = document.getElementsByClassName('previous');
+document.addEventListener('click', function(){
+  carousel(-1)
+});
