@@ -94,42 +94,25 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-  background-color: #000000;
-}
-
-
-img {
-  margin-top: 15px;
-  width :1000px;
-  height: auto;
-}
-
-.slide {
+form{
+  margin-top: 5px;
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+#ok {
+  background-color: #3498DB;
 }
 
-.btn {
-  color: #ffffff;
-
+#welcome {
+  font-weight: bold;
+  color: #3498DB;
 }
 
-.previous, .next {
-  background-color: #4F1025;
-}
-
-.previous{
-  float: left;
-  margin-left: 100px;
-}
-
-.next{
-  float: right;
-  margin-right: 50px;
+img{
+  height: 30vh;
+  width: 20vh;
+  margin-right: 2px;
+  margin-top: 5px;
 }
 
 

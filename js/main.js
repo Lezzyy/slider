@@ -10,6 +10,7 @@ for (var i=0; i<slide.length; i++){
   slide[base-1].style.display='block';
 }
 carousel();
+
 var next = document.getElementsByClassName('next');
 document.addEventListener('click', function(){
 carousel(next)
